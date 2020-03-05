@@ -80,12 +80,14 @@ strong{
 
 #paragraph1{
     font-size: 16px;
-    padding: 10px
+    padding: 50px;
+    border: 15px;
 }
 
 #paragraph1_1{
     font-size: 16px;
-    padding: 5px;
+    padding: 50px;
+    border: 15px;
 }
 
 #paragraph2{
