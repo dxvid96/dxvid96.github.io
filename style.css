@@ -80,30 +80,40 @@ strong{
 
 #paragraph1{
     font-size: 16px;
+    padding: 10px
 }
 
 #paragraph1_1{
     font-size: 16px;
+    padding: 5px;
 }
 
 #paragraph2{
     text-align: left;
     font-size: 16px;
+    padding: 5px;
+}
+
+#paragraph2 strong{
+    color: rgb(7, 7, 145)
 }
 
 #paragraph3{
     text-align: left;
     font-size: 16px;
+    padding: 5px;
 }
 
 #paragraph4{
     text-align: left;
     font-size: 16px;
+    padding: 5x;
 }
 
 #paragraph5{
     text-align: left;
     font-size: 16px;
+    padding: 5px;
 }
 
 #button_demo{
