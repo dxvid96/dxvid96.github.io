@@ -1,0 +1,26 @@
+a{
+    color: rgb(89, 89, 168);    
+    text-decoration: none;
+}
+
+a :link{
+    color: pink;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: Cambria;
+}
+
+#image{
+    width: 180px;
+    margin-right: auto;
+    padding: 20px;
+}
+
+button :hover{
+    color: pink;
+}
