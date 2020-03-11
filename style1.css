@@ -19,6 +19,7 @@ h1{
     width: 180px;
     margin-right: auto;
     padding: 20px;
+    border-radius: 300px;
 }
 
 button :hover{
