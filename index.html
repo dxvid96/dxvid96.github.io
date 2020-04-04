@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-
+<div class='total_grids' id="main_grid">
     <h1>
         <strong>
             David's Space ...
@@ -17,15 +17,20 @@
     <hr>
     <br>
 
+    <div class='wrapper' id="grid1">
         <img src='MG_5088.jpg' id='image'>
-
+    
     <br>
 
-    <h2>
+    
+     
+    <br>
+    <h2 id='main_header'>
         Profile
     </h2>
 
-    <p>
+    <div>
+    <p id='paragraph1'>
         I am an astute driven individual who is extremely versatile
         possessing an array of skills ranging from knowledge related to business
         and current affairs to possessing technical skills such as the use of multiple 
@@ -33,38 +38,48 @@
         development, database management, dealing with big data system maintenance and 
         some knowledge on cloud computing and clusters such as hadoop.
     </p>
+    </div>
+    </div>
 
-    <h2>
+    <div class="wrapper" id="grid2">
+    <h2 class='headers' id='subheading1'>
         Education and Achievements
     </h2>
 
-    <ul>
+    <ul class='lists' id='list1'>
         <li>
             <strong>Masters Degree in Data Science, Lancaster University</strong>
         </li>
-
+        <br>
+       
         <li>
-            Undergraduate Degree in Business and International Relations, Aston University
+            <strong>Undergraduate Degree in Business and International Relations, Aston University</strong>
         </li>
+        <br>
 
         <li>
-            420 UCAS Points achieved at A-levels
+            <strong>420 UCAS Points achieved at A-levels</strong>
         </li>
+        <br>
 
         <li>
-            First Class Dissertation: How has American Identity been reformed and Impacted Foreign-Policy Post-Cold War
+            <strong>First Class Dissertation: How has American Identity been reformed and <div>Impacted Foreign-Policy Post-Cold War</div></strong>
         </li>
+        <br>
 
         <li>
-            Portfolio Manager Award: Aston Trading and Investment Society
+            <strong>Portfolio Manager Award: Aston Trading and Investment Society</strong>
         </li>
     </ul>
+    </div>
 
-    <h2>
+    <div class='wrapper' id="grid3">
+    <h2 class="headers" id="subheading2">
         Skills
     </h2>
-
-    <ul>
+    
+    <ul class='lists' id="list2">
+        <div class="innerwrapper" id="innergrid3.1">
         <li>
             Qualitative and Quantitative Analysis
             <ul>
@@ -98,6 +113,7 @@
                 </li>
             </ul>
         </li>
+        </div>
 <br>
         <li>
             Python 
@@ -249,6 +265,7 @@
         Project Management with GIT, JIRA and TRELLO
     </LI>
     </ul>
+    </div>
 
 <br>
 
@@ -274,6 +291,6 @@
     also check out a demo front-end website I styled myself and developed 
     using HTML and CSS. Just click here: <button><a href="tutorial.html" target="blank">Front-end webpage</a></button>
 </p>
-
+</div>
 </body>
 </html>

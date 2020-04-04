@@ -27,3 +27,69 @@ h1{
 button :hover{
     color: pink;
 }
+
+.wrapper{
+    background: lightcoral;
+    padding: 5px;
+    display: grid;
+}
+
+#grid1{
+    background-color: rgb(161, 78, 78);
+    padding: 2em;
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+
+}
+
+ #paragraph1{
+     padding: -20px;
+     border: -10px;
+     text-align: center;
+     color:rgb(228, 214, 214);
+ }
+
+ #main_header{
+     text-align: center;
+     padding: -200px;
+     color:rgb(228, 214, 214);
+ }
+
+ .total_grids{
+     display: grid inline;
+ }
+
+.total_grids{
+     grid-template-columns: 40px 50px auto 50px 40px;
+     grid-template-rows: 25% 100px auto;
+}
+
+#grid2{
+    background-color: rgb(102, 204, 170);
+    padding: 2em;
+}
+
+#subheading1{
+    text-align: center;
+    color: rgb(70, 59, 59);
+}
+
+#list1{
+    text-align: center;
+    color: rgb(70, 59, 59);
+}
+
+#subheading2{
+    text-align: center;
+}
+
+#list2{
+
+}
+
+#grid3{
+    background-color: lightblue;
+
+}
